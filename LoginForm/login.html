@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursive Education</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+   <div class="above" id="above">
+    <h4 class="title">Click This Button</h4>
+    <button class="login" onclick="openBox()">Login</button>
+   </div>
+   
+   <div class="loginDiv" id="loginDiv">
+    <div class="imgDiv">
+        <span class="cross" onclick="closeBox()">&times;</span>
+        <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="">
+    </div>
+    <div class="inputDiv">
+        <label for="">User Name</label><br>
+        <input class="formControl" type="text" placeholder="Ener User Name"><br><br>
+        <label for="">Password</label><br>
+        <input class="formControl" type="password" placeholder="Ener Password">
+
+        <br>
+        <button class="loginBtn">Login</button>
+
+        <input type="checkbox" checked><label for="">Remember me</label>
+
+        <div class="footer">
+            <button class="cancel" onclick="closeBox()">Cancel</button>
+            <span class="forgotContent">Forgot <a href="#">password</a>?</span>
+        </div>
+    </div>
+   </div>
+   <script src="login.js"></script>
+</body>
+</html>  

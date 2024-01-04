@@ -1,0 +1,84 @@
+.slideShowContainer {
+    position: relative;
+}
+
+.slideShowContainer img {
+    width: 100%;
+    height: 400px;
+    max-height: 350px;
+}
+
+.numberText {
+    position: absolute;
+    left: 5px;
+    color: #000000;
+    font-size: 22px;
+    font-family: Popin, serif;
+    font-weight: 500;
+}
+
+.mySlides {
+    display: none;
+}
+
+.text {
+    position: absolute;
+    top: 43%;
+    color: #000000;
+    font-family: Raleway, serif;
+    font-size: 20px;
+    font-weight: 600;
+    left: calc(50% - 55px);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #605c5c !important;
+}
+
+.prev {
+    position: absolute;
+    top: 40%;
+}
+
+.next {
+    position: absolute;
+    right: 2px;
+    top: 40%;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.dotDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.fades {
+    animation-name: fades;
+    animation-duration: 1.5s;
+}
+
+@keyframes fades {
+    from {
+        opacity: 0.3;
+    }
+    to {
+        opacity: 1;
+    }
+}
