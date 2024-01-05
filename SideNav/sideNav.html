@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sideNav.css">
+    <title>Recursive Education</title>
+</head>
+<body>
+    <div>
+        <div class="sideNav" id="sideNav">
+            <button class="closeBtn" onclick="closeNav()">&times;</button>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact</li>
+        </div>
+        <div id="contentArea">
+            <h3>Side Nav Example</h3>
+            <button class="openBtn" onclick="openNav()">&#9776; Open</button><br/>
+            <strong>
+                Click on the element below to open the side navigation menu,
+                and push this content to the right. Notice that we add a black
+                see-through background-color to body when the sidenav is opened
+            </strong>
+        </div>
+    </div>
+    <script src="sideNav.js"></script>
+</body>
+</html>
