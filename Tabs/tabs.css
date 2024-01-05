@@ -1,0 +1,28 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.btnDiv{
+    border: 1px solid #282c34;
+    background-color: #f1f1f1;
+}
+.btn{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+.active{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.mam{
+    border: 1px solid #282c34;
+    border-top: none;
+    margin-top: -19px;
+    padding: 5px;
+    display: none;
+}
