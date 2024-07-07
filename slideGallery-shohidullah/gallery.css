@@ -1,0 +1,46 @@
+.slideImg{
+    width: 100%;
+    height: auto;
+    margin-bottom: -4px;
+} 
+.slides{
+    position: relative;
+}
+.slide{
+    display: none;
+}
+.slideNumber{
+    position: absolute;
+    color: white;
+    top: -10px;
+    left: 10px;
+
+}
+.caption{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px ;
+    padding: 3px;
+
+}
+.prev, .next{
+    position: absolute;
+    top: 45%;
+    border: 1px solid gray;
+}
+.next{
+    right: 0px;
+}
+.prev:hover,.next:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.preview{
+    display: flex;
+}
+.previewImg{
+    width: 16.7%;
+    cursor: pointer;
+}
